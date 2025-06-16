@@ -63,7 +63,7 @@ ul{
   flex: 1;
   /* border: 2px red solid; */
   /* padding: 0 50px; */
-  max-width: 400px;
+  max-width: 450px;
 }
 .right-image{
   flex: 1;
@@ -88,4 +88,43 @@ button{
   border: none;
   padding: 5px 20px;
   margin-top: 10px;
+}
+
+/* section two */
+.second{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.info-header{
+
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin: 45px 0;
+}
+.box{
+  width: 150px;
+  height: 150px;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+}
+.info-parent{
+  display: flex;
+  gap: 40px;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+}
+.box-parent{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+  
+}
+.subtext{
+  color: rgb(104, 104, 104);
+  max-width: 150px;
 }
